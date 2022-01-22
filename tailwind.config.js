@@ -1,7 +1,14 @@
 module.exports = {
-  content: [],
+  purge:[],
+  darkMode: false,
+  content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'body': '#17171F',
+      }
+      
+    },
   },
   plugins: [],
 }
